@@ -52,10 +52,12 @@ public class TripPlannerServiceImpl implements TripPlannerService{
 		if(updateUser != null) {
 			updateUser.setUserName(user.getUserName());
 			updateUser.setUserPassword(user.getUserPassword());
+			updateUser.setUserBooking(user.getUserBooking());
+			userRepository.save(updateUser);
 			return updateUser;
 		}
 		else {
-			throw new TripException();
+			throw new TripException(TripExceptionMessage.USERDOESNOTEXIST);
 		}
 	}
 
@@ -114,8 +116,7 @@ public class TripPlannerServiceImpl implements TripPlannerService{
 
 	@Override
 	public List<Location> findAllLocation() throws TripException {
-		// TODO Auto-generated method stub
-		return null;
+		return locationRepository.findAll();
 	}
 
 	@Override
@@ -131,8 +132,15 @@ public class TripPlannerServiceImpl implements TripPlannerService{
 
 	@Override
 	public Booking bookTransport(Long userId, Booking booking, Long locationId) throws TripException {
-		// TODO Auto-generated method stub
-		return null;
+		User user = userRepository.findByUserId(userId);
+		if(user != null) {
+		
+			return null;
+		}
+		else {
+			throw new TripException(TripExceptionMessage.USERDOESNOTEXIST);
+		}
+		
 	}
 
 	@Override

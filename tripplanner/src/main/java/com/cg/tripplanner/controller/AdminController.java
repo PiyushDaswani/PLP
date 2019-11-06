@@ -3,6 +3,8 @@
  */
 package com.cg.tripplanner.controller;
 
+import java.util.ArrayList;
+
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -61,7 +63,7 @@ public class AdminController {
 	@PostMapping("/location/add")
 	public ResponseEntity<?> addLocation(@ModelAttribute("location") Location location){
 		try{
-			location.setHotelList(null);
+			location.setHotelList(new ArrayList<Hotel>());
 			tripPlannerService.addLocation(location);
 			return new ResponseEntity<String>("Location Added Successfully", HttpStatus.OK);
 		}catch(TripException e) {
