@@ -12,5 +12,5 @@ import com.cg.tripplanner.dto.Location;
  *
  */
 public interface LocationRepository extends JpaRepository<Location, Long>{
-
+	public Location findByLocationId(Long locationId);
 }

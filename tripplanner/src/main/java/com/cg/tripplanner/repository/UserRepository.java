@@ -6,4 +6,5 @@ import com.cg.tripplanner.dto.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 
+	public User findByUserId(Long userId);
 }

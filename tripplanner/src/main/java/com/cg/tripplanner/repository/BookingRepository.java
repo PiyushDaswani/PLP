@@ -12,5 +12,5 @@ import com.cg.tripplanner.dto.Booking;
  *
  */
 public interface BookingRepository extends JpaRepository<Booking, Long>{
-
+	public Booking findByBookingId(Long bookingId);
 }

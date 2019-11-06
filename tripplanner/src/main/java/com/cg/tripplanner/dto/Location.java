@@ -9,6 +9,8 @@ import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
@@ -22,6 +24,7 @@ import javax.persistence.Table;
 public class Location {
 	@Id
 	@Column(name = "location_id")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long locationId;
 	@Column(name = "location_name")
 	private String locationName;
@@ -30,12 +33,12 @@ public class Location {
 	@OneToMany(mappedBy = "location", cascade = CascadeType.PERSIST)
 	private List<Hotel> hotelList;
 	@Column(name = "location_description")
-	private String LocationDescription;
+	private String locationDescription;
 	@Column(name = "location_images")
 	private String[] locationImages;
 	
 	public Location() {
-		// TODO Auto-generated constructor stub
+		super();
 	}
 
 	public Location(Long locationId, String locationName, Integer tripDuration, List<Hotel> hotelList,
@@ -45,7 +48,7 @@ public class Location {
 		this.locationName = locationName;
 		this.tripDuration = tripDuration;
 		this.hotelList = hotelList;
-		LocationDescription = locationDescription;
+		this.locationDescription = locationDescription;
 		this.locationImages = locationImages;
 	}
 
@@ -82,11 +85,11 @@ public class Location {
 	}
 
 	public String getLocationDescription() {
-		return LocationDescription;
+		return locationDescription;
 	}
 
 	public void setLocationDescription(String locationDescription) {
-		LocationDescription = locationDescription;
+		this.locationDescription = locationDescription;
 	}
 
 	public String[] getLocationImages() {
@@ -100,7 +103,7 @@ public class Location {
 	@Override
 	public String toString() {
 		return "Location [locationId=" + locationId + ", locationName=" + locationName + ", tripDuration="
-				+ tripDuration + ", hotelList=" + hotelList + ", LocationDescription=" + LocationDescription
+				+ tripDuration + ", hotelList=" + hotelList + ", LocationDescription=" + locationDescription
 				+ ", locationImages=" + Arrays.toString(locationImages) + "]";
 	}
 
