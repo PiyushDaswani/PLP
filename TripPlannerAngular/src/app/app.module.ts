@@ -14,11 +14,13 @@ import {  HTTP_INTERCEPTORS } from '@angular/common/http';
 import {FileUploadModule} from 'ng2-file-upload';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { HomeComponent } from './_component/app.homecomponent';
+import { AdminComponent } from './_component/app.admincomponent';
 
 
 const routes:Routes = [
     { path: '', redirectTo: 'home', pathMatch:'full'},
-    { path: 'home', component:HomeComponent}
+    { path: 'home', component: HomeComponent},
+    { path: 'admin', component: AdminComponent}
 ];
 
 @NgModule({
@@ -28,7 +30,7 @@ const routes:Routes = [
         confirmButtonType:'danger'})
     ],
     declarations: [
-        AppComponent, HomeComponent
+        AppComponent, HomeComponent, AdminComponent
 		], 
 
     providers: [],//[{provide:HTTP_INTERCEPTORS, useClass:BasicAuthHtppInterceptorService, multi:true}],
