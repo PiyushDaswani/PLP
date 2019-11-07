@@ -9,6 +9,7 @@ import com.cg.tripplanner.dto.Booking;
 import com.cg.tripplanner.dto.Hotel;
 import com.cg.tripplanner.dto.HotelBooking;
 import com.cg.tripplanner.dto.Location;
+import com.cg.tripplanner.dto.Transport;
 import com.cg.tripplanner.dto.User;
 import com.cg.tripplanner.exception.TripException;
 
@@ -28,7 +29,8 @@ public interface TripPlannerService {
 	public List<Location> findAllLocation() throws TripException;
 	public Location searchLocation(Long locationId) throws TripException;
 	public Location addLocation(Location location) throws TripException;
-	public Booking bookTransport(Long userId, Booking booking, Long locationId) throws TripException;
+	public Booking bookTransport(Long userId, Booking booking, Long locationId, Transport transport) throws TripException;
 	public HotelBooking bookHotel(Long bookingId, HotelBooking hotelBooking) throws TripException;
+	public Transport addTransport(Transport transport) throws TripException;
 	
 }

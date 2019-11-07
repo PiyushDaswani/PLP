@@ -33,6 +33,8 @@ public class User {
 	@OneToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "plannedTrip")
 	private Location plannedTrip;
+	@Column(name = "trip_cost")
+	private Double tripCost;
 	
 	public User() {
 		// TODO Auto-generated constructor stub
@@ -114,6 +116,14 @@ public class User {
 
 	public void setUserBooking(List<Booking> userBooking) {
 		this.userBooking = userBooking;
+	}
+
+	public Double getTripCost() {
+		return tripCost;
+	}
+
+	public void setTripCost(Double tripCost) {
+		this.tripCost = tripCost;
 	}
 
 	@Override

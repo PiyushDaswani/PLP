@@ -36,6 +36,8 @@ public class Location {
 	private String locationDescription;
 	@Column(name = "location_images")
 	private String[] locationImages;
+	@Column(name = "shortDescription")
+	private String shortDescription; 
 	
 	public Location() {
 		super();
@@ -98,6 +100,14 @@ public class Location {
 
 	public void setLocationImages(String[] locationImages) {
 		this.locationImages = locationImages;
+	}
+	
+	public String getShortDescription() {
+		return shortDescription;
+	}
+
+	public void setShortDescription(String shortDescription) {
+		this.shortDescription = shortDescription;
 	}
 
 	@Override

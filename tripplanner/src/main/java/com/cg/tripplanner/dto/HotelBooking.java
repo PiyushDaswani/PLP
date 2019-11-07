@@ -15,6 +15,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.format.annotation.DateTimeFormat.ISO;
+
 /**
  * @author Piyush
  *
@@ -32,6 +35,7 @@ public class HotelBooking {
 	@OneToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "book_hotel")
 	private Hotel bookHotel;
+	@DateTimeFormat(iso = ISO.DATE_TIME)
 	@Column(name = "check_in")
 	private LocalDateTime checkIn;
 	@Column(name = "duration")

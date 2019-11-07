@@ -9,6 +9,7 @@ import com.cg.tripplanner.dto.Booking;
 import com.cg.tripplanner.dto.Hotel;
 import com.cg.tripplanner.dto.HotelBooking;
 import com.cg.tripplanner.dto.Location;
+import com.cg.tripplanner.dto.Transport;
 import com.cg.tripplanner.dto.User;
 import com.cg.tripplanner.exception.TripException;
 import com.cg.tripplanner.exception.TripExceptionMessage;
@@ -48,16 +49,17 @@ public class TripPlannerServiceImpl implements TripPlannerService{
 
 	@Override
 	public User updateUser(User user) throws TripException {
-		User updateUser = userRepository.findByUserId(user.getUserId());
-		if(updateUser != null) {
-			updateUser.setUserName(user.getUserName());
-			updateUser.setUserPassword(user.getUserPassword());
-			updateUser.setUserBooking(user.getUserBooking());
-			userRepository.save(updateUser);
-			return updateUser;
-		}
-		else {
-			throw new TripException(TripExceptionMessage.USERDOESNOTEXIST);
+		try{
+			User updateUser = userRepository.findByUserId(user.getUserId());
+			if(updateUser != null) {
+				userRepository.save(user);
+				return user;
+			}
+			else {
+				throw new TripException(TripExceptionMessage.USERDOESNOTEXIST);
+			}
+		}catch(Exception e) {
+			throw new TripException(TripExceptionMessage.DUPLICATEEMAIL);
 		}
 	}
 
@@ -131,14 +133,23 @@ public class TripPlannerServiceImpl implements TripPlannerService{
 	}
 
 	@Override
-	public Booking bookTransport(Long userId, Booking booking, Long locationId) throws TripException {
+	public Booking bookTransport(Long userId, Booking booking, Long locationId, Transport transport) throws TripException {
 		User user = userRepository.findByUserId(userId);
-		if(user != null) {
-		
-			return null;
+		Location location = locationRepository.findByLocationId(locationId);
+		Transport foundTransport = transportRepository.findByTransportId(transport.getTransportId());
+		if(user != null && location != null && foundTransport != null) {
+			user.setPlannedTrip(location);
+			user.setTripCost(user.getTripCost()+ booking.getBookingTransport().getTravelCost());
+			booking.setBookingUser(user);
+			booking.setBookingTransport(transport);			
+			bookingRepository.save(booking);
+			return booking;
+		}
+		else if(user == null){
+			throw new TripException(TripExceptionMessage.USERDOESNOTEXIST);
 		}
 		else {
-			throw new TripException(TripExceptionMessage.USERDOESNOTEXIST);
+			throw new TripException(TripExceptionMessage.LOCATIONNOTEXIST);
 		}
 		
 	}
@@ -153,6 +164,12 @@ public class TripPlannerServiceImpl implements TripPlannerService{
 	public Location addLocation(Location location) throws TripException {
 		locationRepository.save(location);
 		return location;
+	}
+
+	@Override
+	public Transport addTransport(Transport transport) throws TripException {
+		transportRepository.save(transport);
+		return transport;
 	}
 
 	

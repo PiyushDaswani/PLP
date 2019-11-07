@@ -12,6 +12,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.format.annotation.DateTimeFormat.ISO;
+
 /**
  * @author Piyush
  *
@@ -25,13 +28,16 @@ public class Transport {
 	private Long transportId;
 	@Column(name = "transport_name")
 	private String transportName;
+	@Column(name = "transport_mode")
+	private String transportMode;
 	@Column(name = "departure_from")
 	private String departureFrom;
 	@Column(name = "arrival_at")
 	private String arrivalAt;
 	@Column(name = "transport_seats")
 	private Integer totalSeats;
-	@Column(name = "transport_time")
+	@DateTimeFormat(iso = ISO.TIME)
+	@Column(name = "departure_time")
 	private LocalTime departureTime;
 	@Column(name = "transport_duration")
 	private Float travelDuration;
@@ -119,6 +125,16 @@ public class Transport {
 		this.travelCost = travelCost;
 	}
 	
+	
+	
+	public String getTransportMode() {
+		return transportMode;
+	}
+
+	public void setTransportMode(String transportMode) {
+		this.transportMode = transportMode;
+	}
+
 	@Override
 	public String toString() {
 		return "Transport [transportId=" + transportId + ", transportName=" + transportName + ", departureFrom="

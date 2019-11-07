@@ -74,6 +74,14 @@ public class AdminController {
 	
 	@PostMapping("/transport/add")
 	public ResponseEntity<?> addTransport(@ModelAttribute("transport") Transport transport){
-		return null;
+		try {
+			tripPlannerService.addTransport(transport);
+			return new ResponseEntity<Transport>(transport, HttpStatus.OK);
+			
+			
+		}catch(TripException e) {
+			logger.error(e.getMessage());
+			return new ResponseEntity<String>(e.getMessage(), HttpStatus.BAD_REQUEST);
+		}
 	}
 }

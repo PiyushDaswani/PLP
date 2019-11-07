@@ -41,6 +41,8 @@ public class Hotel {
 	@ManyToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "location")
 	private Location location;
+	@Column(name = "short_description")
+	private String shortDescription;
 
 	public Hotel() {
 		// TODO Auto-generated constructor stub
@@ -123,11 +125,19 @@ public class Hotel {
 		this.location = location;
 	}
 	
+	public String getShortDescription() {
+		return shortDescription;
+	}
+
+	public void setShortDescription(String shortDescription) {
+		this.shortDescription = shortDescription;
+	}
+
 	@Override
 	public String toString() {
 		return "Hotel [hotelId=" + hotelId + ", hotelName=" + hotelName + ", hotelRating=" + hotelRating
 				+ ", hotelCost=" + hotelCost + ", numberOfRooms=" + numberOfRooms + ", images="
-				+ Arrays.toString(images) + ", description=" + description + ", location=" + location + "]";
+				+ Arrays.toString(images) + ", description=" + description + ", location=" + location.getLocationName() + "]";
 	}
 
 	@Override
