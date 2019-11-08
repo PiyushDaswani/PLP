@@ -8,7 +8,7 @@
       <span></span>
       <span></span>
     </button>
-    <a class="navbar-brand text-brand" href="/admin"><span class="color-b">Trip</span>Planner</a>
+    <a class="navbar-brand text-brand" href="/user#"><span class="color-b">Trip</span>Planner</a>
     <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
       data-target="#navbarTogglerDemo01" aria-expanded="false">
       <span class="fa fa-search" aria-hidden="true"></span>
@@ -16,22 +16,16 @@
     <div class="navbar-collapse collapse justify-content-center w-100" id="navbarDefault">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="/admin#">Home</a>
+          <a class="nav-link active" href="/user#">Home</a>
         </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Hotel
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/addhotel">Add Hotel</a>
-              <a class="dropdown-item" href="/updatehotel">Update Hotel</a>
-              <a class="dropdown-item" href="/removehotel">Remove Hotel</a>
-              <a class="dropdown-item" href="/listhotel">List All Hotels</a>
-            </div>
-          </li>
         <li class="nav-item">
-          <a class="nav-link" href="/updateadmin">Update Profile</a>
+          <a class="nav-link" href="/user#trips">Plan Trip</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/user#trips">View Ticket</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/user#trips">My Trips</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/logout">Logout<span class="fa fa-sign-in"></span></a>
@@ -45,7 +39,7 @@
 <!--/ Carousel Star /-->
 <div class="intro intro-carousel">
   <div id="carousel" class="owl-carousel owl-theme">
-    <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/Hotel1.jpg); background-position-y:50px;">
+    <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/planholiday.jpg); background-position-y:50px;">
       <div class="overlay overlay-a"></div>
       <div class="intro-content display-table">
         <div class="table-cell">
@@ -55,10 +49,10 @@
                 <div class="intro-body">
                   
                   <h1 class="intro-title mb-4">
-                    <span class="color-b">Add </span> Hotel
+                    <span class="color-b">Plan </span> your holiday
                     <br><br></h1>
                   <p class="intro-subtitle intro-price">
-                    <a href="/addhotel"><span class="price-a">Add Hotel</span></a>
+                    <a href="/user#trips"><span class="price-a">Plan Trip</span></a>
                   </p>
                 </div>
               </div>
@@ -67,7 +61,7 @@
         </div>
       </div>
     </div>
-    <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/removehotel.jpg)">
+    <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/flight.jpg)">
       <div class="overlay overlay-a"></div>
       <div class="intro-content display-table">
         <div class="table-cell">
@@ -76,10 +70,10 @@
               <div class="col-lg-8">
                 <div class="intro-body">
                   <h1 class="intro-title mb-4">
-                    <span class="color-b">Remove </span> Hotel
+                    <span class="color-b">Book </span> Flight
                     <br><br></h1>
                   <p class="intro-subtitle intro-price">
-                    <a href="/removehotel"><span class="price-a">Remove Hotel</span></a>
+                    <a href="/user#trips"><span class="price-a">Plan Trip</span></a>
                   </p>
                 </div>
               </div>
@@ -88,7 +82,7 @@
         </div>
       </div>
     </div>
-    <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/updatehotel.jpg)">
+    <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/Hotel1.jpg)">
       <div class="overlay overlay-a"></div>
       <div class="intro-content display-table">
         <div class="table-cell">
@@ -97,10 +91,10 @@
               <div class="col-lg-8">
                 <div class="intro-body">
                   <h1 class="intro-title mb-4">
-                    <span class="color-b">Update </span> Hotel
+                    <span class="color-b">Book </span> Hotel
                     <br> <br></h1>
                   <p class="intro-subtitle intro-price">
-                    <a href="" data-toggle="modal" data-target="#Register"><span class="price-a">Update Hotel</span></a>
+                    <a href="user#trips"><span class="price-a">Plan Trip</span></a>
                   </p>
                 </div>
               </div>
@@ -114,110 +108,40 @@
 <!--/ Carousel end /-->
 
 <!--/ News Star /-->
-<section class="section-news section-t8">
+<section class="section-news section-t8" id = "trips">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a">Latest News</h2>
+              <h2 class="title-a">Trip Destination</h2>
             </div>
             <div class="title-link">
-              <a href="blog-grid.html">All News
-                <span class="ion-ios-arrow-forward"></span>
-              </a>
+              
             </div>
           </div>
         </div>
       </div>
-      <div id="new-carousel" class="owl-carousel owl-theme">
-        <div class="carousel-item-c">
-          <div class="card-box-b card-shadow news-box">
-            <div class="img-box-b">
-              <img src="img/post-2.jpg" alt="" class="img-b img-fluid">
-            </div>
-            <div class="card-overlay">
-              <div class="card-header-b">
-                <div class="card-category-b">
-                  <a href="#" class="category-b">House</a>
-                </div>
-                <div class="card-title-b">
-                  <h2 class="title-2">
-                    <a href="blog-single.html">House is comming
-                      <br> new</a>
-                  </h2>
-                </div>
-                <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
-                </div>
+      <div id="new-carousel" class="owl-carousel owl-theme" >
+        <div  *ngFor = "let loc of locations">
+          <div class="carousel-item-c">
+            <div class="card-box-b card-shadow news-box">
+              <div class="img-box-b">
+                <a><img src="assets/img/{{loc.locationImages[0]}}" alt="" style="height: 200px; width:400px"  class="img-b img-fluid"></a>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item-c">
-          <div class="card-box-b card-shadow news-box">
-            <div class="img-box-b">
-              <img src="img/post-5.jpg" alt="" class="img-b img-fluid">
-            </div>
-            <div class="card-overlay">
-              <div class="card-header-b">
-                <div class="card-category-b">
-                  <a href="#" class="category-b">Travel</a>
-                </div>
-                <div class="card-title-b">
-                  <h2 class="title-2">
-                    <a href="blog-single.html">Travel is comming
-                      <br> new</a>
-                  </h2>
-                </div>
-                <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item-c">
-          <div class="card-box-b card-shadow news-box">
-            <div class="img-box-b">
-              <img src="img/post-7.jpg" alt="" class="img-b img-fluid">
-            </div>
-            <div class="card-overlay">
-              <div class="card-header-b">
-                <div class="card-category-b">
-                  <a href="#" class="category-b">Park</a>
-                </div>
-                <div class="card-title-b">
-                  <h2 class="title-2">
-                    <a href="blog-single.html">Park is comming
-                      <br> new</a>
-                  </h2>
-                </div>
-                <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item-c">
-          <div class="card-box-b card-shadow news-box">
-            <div class="img-box-b">
-              <img src="img/post-3.jpg" alt="" class="img-b img-fluid">
-            </div>
-            <div class="card-overlay">
-              <div class="card-header-b">
-                <div class="card-category-b">
-                  <a href="#" class="category-b">Travel</a>
-                </div>
-                <div class="card-title-b">
-                  <h2 class="title-2">
-                    <a href="#">Travel is comming
-                      <br> new</a>
-                  </h2>
-                </div>
-                <div class="card-date">
-                  <span class="date-b">18 Sep. 2017</span>
+              <div class="card-overlay">
+                <div class="card-header-b">
+                  <div class="card-category-b">
+                    <a >{{loc.locationName}}</a>
+                  </div>
+                  <div class="card-title-b">
+                    <h2 class="title-2">
+                      <a >{{loc.shortDescription}}</a>
+                    </h2>
+                  </div>
+                  <div class="card-date">
+                    <span class="date-b">Trip Duration : {{loc.tripDuration}} days</span>
+                  </div>
                 </div>
               </div>
             </div>

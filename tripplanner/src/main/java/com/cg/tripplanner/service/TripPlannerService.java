@@ -32,5 +32,6 @@ public interface TripPlannerService {
 	public Booking bookTransport(Long userId, Booking booking, Long locationId, Transport transport) throws TripException;
 	public HotelBooking bookHotel(Long bookingId, HotelBooking hotelBooking) throws TripException;
 	public Transport addTransport(Transport transport) throws TripException;
+	public User findByEmail(String email) throws TripException;
 	
 }

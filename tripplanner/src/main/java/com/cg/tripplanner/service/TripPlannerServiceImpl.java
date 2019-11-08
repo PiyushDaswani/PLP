@@ -1,6 +1,7 @@
 package com.cg.tripplanner.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -172,5 +173,16 @@ public class TripPlannerServiceImpl implements TripPlannerService{
 		return transport;
 	}
 
+	@Override
+	public User findByEmail(String email) throws TripException {
+		User user = userRepository.findByUserEmail(email).get();
+	if(user != null) {
+		return user;
+	}
+	else {
+		throw new TripException(TripExceptionMessage.USERDOESNOTEXIST);
+	}
+		
+	}
 	
 }

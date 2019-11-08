@@ -15,12 +15,15 @@ import {FileUploadModule} from 'ng2-file-upload';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { HomeComponent } from './_component/app.homecomponent';
 import { AdminComponent } from './_component/app.admincomponent';
+import { UserComponent } from './_component/app.user.component';
+import { BasicAuthHtppInterceptorService } from './_service/app.basicauthinterceptorservice';
 
 
 const routes:Routes = [
     { path: '', redirectTo: 'home', pathMatch:'full'},
     { path: 'home', component: HomeComponent},
-    { path: 'admin', component: AdminComponent}
+    { path: 'admin', component: AdminComponent},
+    { path: 'user', component: UserComponent}
 ];
 
 @NgModule({
@@ -30,10 +33,10 @@ const routes:Routes = [
         confirmButtonType:'danger'})
     ],
     declarations: [
-        AppComponent, HomeComponent, AdminComponent
+        AppComponent, HomeComponent, AdminComponent, UserComponent
 		], 
 
-    providers: [],//[{provide:HTTP_INTERCEPTORS, useClass:BasicAuthHtppInterceptorService, multi:true}],
+    providers: [{provide:HTTP_INTERCEPTORS, useClass:BasicAuthHtppInterceptorService, multi:true}],
 
     bootstrap: [AppComponent]
 })
