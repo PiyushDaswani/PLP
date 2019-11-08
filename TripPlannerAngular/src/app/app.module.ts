@@ -17,13 +17,15 @@ import { HomeComponent } from './_component/app.homecomponent';
 import { AdminComponent } from './_component/app.admincomponent';
 import { UserComponent } from './_component/app.user.component';
 import { BasicAuthHtppInterceptorService } from './_service/app.basicauthinterceptorservice';
+import { LogoutComponent } from './_component/app.logoutcomponent';
 
 
 const routes:Routes = [
     { path: '', redirectTo: 'home', pathMatch:'full'},
     { path: 'home', component: HomeComponent},
     { path: 'admin', component: AdminComponent},
-    { path: 'user', component: UserComponent}
+    { path: 'user', component: UserComponent},
+    { path: 'logout', component: LogoutComponent}
 ];
 
 @NgModule({
@@ -33,7 +35,7 @@ const routes:Routes = [
         confirmButtonType:'danger'})
     ],
     declarations: [
-        AppComponent, HomeComponent, AdminComponent, UserComponent
+        AppComponent, HomeComponent, AdminComponent, UserComponent, LogoutComponent
 		], 
 
     providers: [{provide:HTTP_INTERCEPTORS, useClass:BasicAuthHtppInterceptorService, multi:true}],

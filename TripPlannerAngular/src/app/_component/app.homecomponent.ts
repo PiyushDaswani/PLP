@@ -87,7 +87,7 @@ export class HomeComponent implements OnInit {
 
     register(){
         if(this.validateEmail() && this.validateName() && this.validatePassword() && this.validateRepeatPassword()){
-            this.authenticationService.register(this.user.userName, this.user.userEmail, this.user.userPassword).subscribe(success=>{alert("User Registered Successfully"); window.location.reload}, (error)=>alert(error.error));
+            this.authenticationService.register(this.user.userName, this.user.userEmail, this.user.userPassword).subscribe(success=>{alert("User Registered Successfully"); this.router.navigate(['/home']);}, (error)=>alert(error.error));
         }
     }
 
