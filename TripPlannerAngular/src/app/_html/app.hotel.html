@@ -1,0 +1,230 @@
+<div class="click-closed"></div>
+<!--/ Nav Star /-->
+<nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="/user#"><span class="color-b">Trip</span>Planner</a>
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center w-100" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="/user#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/user#trips">Plan Trip</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/myticket">View Ticket</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">Logout<span class="fa fa-sign-in"></span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+<!--/ Carousel Star /-->
+<div class="intro intro-carousel">
+  <div id="carousel" class="owl-carousel owl-theme">
+    <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/hotelback1.jpg); background-position-y:50px;">
+      <div class="overlay overlay-a"></div>
+      <div class="intro-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="intro-body">
+                  
+                  <h1 class="intro-title mb-4">
+                    <span class="color-b">5 Star </span> Service
+                    <br><br></h1>
+                  <p class="intro-subtitle intro-price">
+                    <a href="/hotel#trips"><span class="price-a">View Hotels</span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/hotelback2.jpg)">
+      <div class="overlay overlay-a"></div>
+      <div class="intro-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="intro-body">
+                  <h1 class="intro-title mb-4">
+                    <span class="color-b">Comfortable </span> Stay
+                    <br><br></h1>
+                  <p class="intro-subtitle intro-price">
+                    <a href="/hotel#trips"><span class="price-a">View Hotels</span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/hotelback3.jpg)">
+      <div class="overlay overlay-a"></div>
+      <div class="intro-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="intro-body">
+                  <h1 class="intro-title mb-4">
+                    <span class="color-b">First Class </span> Accomodation
+                    <br> <br></h1>
+                  <p class="intro-subtitle intro-price">
+                    <a href="hotel#trips"><span class="price-a">View Hotels</span></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ Carousel end /-->
+
+<!--/ News Star /-->
+<section class="section-news section-t8" id = "trips">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Dream Hotels</h2>
+            </div>
+            <div class="title-link">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="new-carousel" class="owl-carousel owl-theme" >
+        <div  *ngFor = "let hotel of hotels">
+            <a (click) = "route(hotel.hotelId)">
+          <div class="carousel-item-c">
+            <div class="card-box-b card-shadow news-box">
+              <div class="img-box-b">
+                <img src="assets/img/{{hotel.images[0]}}" alt="" style="height: 200px; width:400px"  class="img-b img-fluid">
+              </div>
+              <div class="card-overlay">
+                <div class="card-header-b">
+                  <div class="card-category-b">
+                    <a >{{hotel.hotelName}}</a>
+                  </div>
+                  <div class="card-title-b">
+                    <h2 class="title-2">
+                      <a >{{hotel.shortDescription}}</a>
+                    </h2>
+                  </div>
+                  <div class="card-date">
+                    <span class="date-b">Rating : {{hotel.hotelRating}} stars</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ News End /-->
+
+<!--/ footer Star /-->
+<section class="section-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <div class="widget-a">
+          <div class="w-header-a">
+            <h3 class="w-title-a text-brand">Contact Us</h3>
+          </div>
+          <div class="w-body-a">
+            <p class="w-text-a color-text-a">
+              You can contact us in the following ways
+            </p>
+          </div>
+          <div class="w-footer-a">
+            <ul class="list-unstyled">
+              <li class="color-a">
+                <span class="color-text-a">Email :</span> info@tripplanner.com</li>
+              <li class="color-a">
+                <span class="color-text-a">Phone :</span> +91 99895 54235</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="socials-a">
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa fa-dribbble" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="copyright-footer">
+          <p class="copyright color-text-a">
+            &copy; Copyright
+            <span class="color-a">EstateAgency</span> All Rights Reserved.
+          </p>
+        </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--/ Footer End /-->
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<div id="preloader"></div>

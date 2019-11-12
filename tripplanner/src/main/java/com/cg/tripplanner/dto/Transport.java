@@ -13,7 +13,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.format.annotation.DateTimeFormat.ISO;
 
 /**
  * @author Piyush
@@ -36,7 +35,7 @@ public class Transport {
 	private String arrivalAt;
 	@Column(name = "transport_seats")
 	private Integer totalSeats;
-	@DateTimeFormat(iso = ISO.TIME)
+	@DateTimeFormat(pattern = "HH:mm:ss")
 	@Column(name = "departure_time")
 	private LocalTime departureTime;
 	@Column(name = "transport_duration")

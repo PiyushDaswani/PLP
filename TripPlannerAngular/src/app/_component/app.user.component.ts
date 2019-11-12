@@ -13,11 +13,15 @@ export class UserComponent implements OnInit {
     locations:any[] = [];
     user:any = null;
     ngOnInit(){
-        // if(sessionStorage.getItem("role")!= "user"){
-        //     this.router.navigate(['/error403'])
-        // }
+        if(sessionStorage.getItem("role")!= "user"){
+            this.router.navigate(['/error403']).then(()=>window.location.reload())
+        }
         this.locationService.listLocations().subscribe((success:any[]) =>{this.locations = success;console.log(this.locations)});
     }
     
-    
+    route(id:number){
+        this.router.navigate(['/location',id]).then(() => {
+            window.location.reload();
+        });;
+    }
 }

@@ -10,8 +10,8 @@ export class AdminComponent implements OnInit {
     
     constructor(private router:Router){}
     ngOnInit(){
-        // if(sessionStorage.getItem("role")!= "user"){
-        //     this.router.navigate(['/error403'])
-        // }
+        if(sessionStorage.getItem("role")!= "admin"){
+            this.router.navigate(['/error403']).then(()=>window.location.reload());
+        }
     }
 }

@@ -42,5 +42,6 @@ export class AuthenticationService {
         sessionStorage.removeItem("token");
         sessionStorage.removeItem("role");
         sessionStorage.removeItem("userId");
+        sessionStorage.removeItem("locationId");
     }
 }

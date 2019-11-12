@@ -11,4 +11,10 @@ export class UserService{
         return this.myhttp.get("http://"+ window.location.hostname+":9011/user/update");
     }
 
+    getTicket(ticketNo){
+        return this.myhttp.get("http://"+ window.location.hostname+":9011/user/ticket?userid="+ sessionStorage.getItem("userId")+"&ticketNo="+ticketNo, {
+        responseType: 'blob'
+        });
+    }
+
 }

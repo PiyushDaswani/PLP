@@ -32,7 +32,7 @@ public class Location {
 	private Integer tripDuration;
 	@OneToMany(mappedBy = "location", cascade = CascadeType.PERSIST)
 	private List<Hotel> hotelList;
-	@Column(name = "location_description")
+	@Column(name = "location_description", length = 1500)
 	private String locationDescription;
 	@Column(name = "location_images")
 	private String[] locationImages;

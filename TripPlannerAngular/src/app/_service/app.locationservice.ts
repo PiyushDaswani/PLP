@@ -11,4 +11,16 @@ export class LocationService{
         return this.myhttp.get("http://"+ window.location.hostname+":9011/user/locations");
     }
 
+    getLocation(id:number){
+        return this.myhttp.get("http://"+ window.location.hostname+":9011/user/location/find?locationId="+id); 
+    }
+
+    getLocationNames(locationName:string){
+        return this.myhttp.get("http://"+ window.location.hostname+":9011/location/names?locationName="+locationName); 
+    }
+
+    listHotels(){
+        return this.myhttp.get("http://"+ window.location.hostname+":9011/user/hotels?locationId="+sessionStorage.getItem("locationId"));
+    }
+
 }

@@ -1,0 +1,500 @@
+2019-11-12 01:28:48,161 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:28:48,161 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:28:48,162 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:28:48,637 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:28:48,762 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:28:48,762 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:28:48,912 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:28:48,916 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:28:49,007 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:28:49,012 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2019-11-12 01:28:49,018 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2019-11-12 01:28:49,018 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:28:49,554 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:28:49,742 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:28:50,152 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 2.025 seconds (JVM running for 59.972)
+2019-11-12 01:29:02,836 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown initiated...
+2019-11-12 01:29:02,847 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown completed.
+2019-11-12 01:29:03,342 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:29:03,343 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:29:03,343 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:29:03,868 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:29:03,993 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:29:03,994 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:29:04,106 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:29:04,109 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:29:04,176 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:29:04,181 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2019-11-12 01:29:04,187 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2019-11-12 01:29:04,188 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:29:04,903 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:29:05,079 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:29:05,553 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 2.243 seconds (JVM running for 75.373)
+2019-11-12 01:29:26,306 INFO com.zaxxer.hikari.HikariDataSource [Thread-14] HikariPool-3 - Shutdown initiated...
+2019-11-12 01:29:26,318 INFO com.zaxxer.hikari.HikariDataSource [Thread-14] HikariPool-3 - Shutdown completed.
+2019-11-12 01:29:26,820 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:29:26,821 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:29:26,822 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:29:27,237 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:29:27,357 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:29:27,357 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:29:27,450 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:29:27,455 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:29:27,531 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:29:27,538 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2019-11-12 01:29:27,543 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2019-11-12 01:29:27,544 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:29:27,997 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:29:28,172 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:29:28,534 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.748 seconds (JVM running for 98.354)
+2019-11-12 01:29:57,349 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-4 - Shutdown initiated...
+2019-11-12 01:29:57,358 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-4 - Shutdown completed.
+2019-11-12 01:29:57,812 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:29:57,813 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:29:57,813 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:29:58,254 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:29:58,376 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:29:58,377 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:29:58,489 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:29:58,493 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:29:58,579 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:29:58,585 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2019-11-12 01:29:58,591 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2019-11-12 01:29:58,591 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:29:59,184 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:29:59,349 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:29:59,707 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.923 seconds (JVM running for 129.527)
+2019-11-12 01:30:15,308 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-5 - Shutdown initiated...
+2019-11-12 01:30:15,318 INFO com.zaxxer.hikari.HikariDataSource [Thread-24] HikariPool-5 - Shutdown completed.
+2019-11-12 01:30:15,794 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:30:15,795 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:30:15,795 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:30:16,192 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:30:16,323 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:30:16,323 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:30:16,471 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:30:16,474 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:30:16,543 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:30:16,549 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2019-11-12 01:30:16,553 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2019-11-12 01:30:16,554 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:30:16,945 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:30:17,094 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:30:17,476 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.711 seconds (JVM running for 147.297)
+2019-11-12 01:30:58,407 INFO com.zaxxer.hikari.HikariDataSource [Thread-29] HikariPool-6 - Shutdown initiated...
+2019-11-12 01:30:58,417 INFO com.zaxxer.hikari.HikariDataSource [Thread-29] HikariPool-6 - Shutdown completed.
+2019-11-12 01:30:58,876 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:30:58,876 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:30:58,876 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:30:59,282 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:30:59,407 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:30:59,407 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:30:59,513 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:30:59,516 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:30:59,592 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:30:59,601 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2019-11-12 01:30:59,606 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2019-11-12 01:30:59,606 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:31:00,013 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:31:00,197 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:31:00,732 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.886 seconds (JVM running for 190.552)
+2019-11-12 01:31:26,467 INFO com.zaxxer.hikari.HikariDataSource [Thread-34] HikariPool-7 - Shutdown initiated...
+2019-11-12 01:31:26,477 INFO com.zaxxer.hikari.HikariDataSource [Thread-34] HikariPool-7 - Shutdown completed.
+2019-11-12 01:31:26,909 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:31:26,910 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:31:26,910 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:31:27,359 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:31:27,485 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:31:27,485 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:31:27,587 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:31:27,591 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:31:27,660 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:31:27,664 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2019-11-12 01:31:27,667 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2019-11-12 01:31:27,668 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:31:28,097 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:31:28,260 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:31:28,612 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.734 seconds (JVM running for 218.432)
+2019-11-12 01:34:04,007 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-8 - Shutdown initiated...
+2019-11-12 01:34:04,017 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-8 - Shutdown completed.
+2019-11-12 01:34:04,517 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:34:04,518 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:34:04,518 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:34:04,923 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:34:05,046 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:34:05,046 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:34:05,146 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:34:05,150 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:34:05,215 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:34:05,220 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2019-11-12 01:34:05,225 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2019-11-12 01:34:05,225 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:34:05,608 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:34:05,763 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:34:06,137 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.654 seconds (JVM running for 375.957)
+2019-11-12 01:34:43,105 INFO com.zaxxer.hikari.HikariDataSource [Thread-44] HikariPool-9 - Shutdown initiated...
+2019-11-12 01:34:43,116 INFO com.zaxxer.hikari.HikariDataSource [Thread-44] HikariPool-9 - Shutdown completed.
+2019-11-12 01:34:43,531 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:34:43,531 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:34:43,531 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:34:44,013 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:34:44,132 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:34:44,132 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:34:44,225 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:34:44,229 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:34:44,305 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:34:44,310 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2019-11-12 01:34:44,315 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2019-11-12 01:34:44,315 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:34:44,775 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:34:44,920 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:34:45,280 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.791 seconds (JVM running for 415.1)
+2019-11-12 01:35:23,192 INFO com.zaxxer.hikari.HikariDataSource [Thread-49] HikariPool-10 - Shutdown initiated...
+2019-11-12 01:35:23,201 INFO com.zaxxer.hikari.HikariDataSource [Thread-49] HikariPool-10 - Shutdown completed.
+2019-11-12 01:35:23,624 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:35:23,624 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:35:23,624 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:35:24,069 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:35:24,196 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:35:24,196 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:35:24,309 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:35:24,312 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:35:24,378 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:35:24,382 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Starting...
+2019-11-12 01:35:24,386 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Start completed.
+2019-11-12 01:35:24,386 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:35:24,819 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:35:24,974 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:35:25,338 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.744 seconds (JVM running for 455.159)
+2019-11-12 01:36:02,303 INFO com.zaxxer.hikari.HikariDataSource [Thread-54] HikariPool-11 - Shutdown initiated...
+2019-11-12 01:36:02,311 INFO com.zaxxer.hikari.HikariDataSource [Thread-54] HikariPool-11 - Shutdown completed.
+2019-11-12 01:36:02,773 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:36:02,773 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:36:02,774 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:36:03,281 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:36:03,430 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:36:03,430 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:36:03,626 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:36:03,629 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:36:03,698 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:36:03,707 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2019-11-12 01:36:03,712 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2019-11-12 01:36:03,712 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:36:04,151 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:36:04,335 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:36:04,691 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.95 seconds (JVM running for 494.511)
+2019-11-12 01:38:10,886 INFO com.zaxxer.hikari.HikariDataSource [Thread-59] HikariPool-12 - Shutdown initiated...
+2019-11-12 01:38:10,896 INFO com.zaxxer.hikari.HikariDataSource [Thread-59] HikariPool-12 - Shutdown completed.
+2019-11-12 01:38:11,378 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:38:11,378 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:38:11,378 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:38:11,794 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:38:11,923 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:38:11,923 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:38:12,098 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:38:12,102 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:38:12,183 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:38:12,189 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Starting...
+2019-11-12 01:38:12,193 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Start completed.
+2019-11-12 01:38:12,194 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:38:12,730 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:38:12,908 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:38:13,319 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.969 seconds (JVM running for 623.139)
+2019-11-12 01:38:21,839 INFO com.zaxxer.hikari.HikariDataSource [Thread-64] HikariPool-13 - Shutdown initiated...
+2019-11-12 01:38:21,850 INFO com.zaxxer.hikari.HikariDataSource [Thread-64] HikariPool-13 - Shutdown completed.
+2019-11-12 01:38:22,318 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:38:22,318 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:38:22,319 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:38:22,703 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:38:22,826 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:38:22,826 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:38:22,996 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:38:22,999 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:38:23,052 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:38:23,057 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Starting...
+2019-11-12 01:38:23,061 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Start completed.
+2019-11-12 01:38:23,061 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:38:23,504 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:38:23,657 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:38:24,021 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.73 seconds (JVM running for 633.841)
+2019-11-12 01:39:22,248 INFO com.zaxxer.hikari.HikariDataSource [Thread-69] HikariPool-14 - Shutdown initiated...
+2019-11-12 01:39:22,257 INFO com.zaxxer.hikari.HikariDataSource [Thread-69] HikariPool-14 - Shutdown completed.
+2019-11-12 01:39:22,692 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:39:22,692 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:39:22,692 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:39:23,088 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:39:23,209 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:39:23,209 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:39:23,304 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:39:23,308 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:39:23,373 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:39:23,378 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Starting...
+2019-11-12 01:39:23,383 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Start completed.
+2019-11-12 01:39:23,383 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:39:23,806 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:39:23,953 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:39:24,400 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.738 seconds (JVM running for 694.22)
+2019-11-12 01:40:39,906 INFO com.zaxxer.hikari.HikariDataSource [Thread-74] HikariPool-15 - Shutdown initiated...
+2019-11-12 01:40:39,916 INFO com.zaxxer.hikari.HikariDataSource [Thread-74] HikariPool-15 - Shutdown completed.
+2019-11-12 01:40:40,422 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:40:40,422 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:40:40,422 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:40:40,956 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:40:41,102 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:40:41,103 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:40:41,206 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:40:41,212 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:40:41,283 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:40:41,291 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Starting...
+2019-11-12 01:40:41,296 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Start completed.
+2019-11-12 01:40:41,297 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:40:41,730 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:40:41,888 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:40:42,395 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 2.008 seconds (JVM running for 772.215)
+2019-11-12 01:40:47,863 INFO com.zaxxer.hikari.HikariDataSource [Thread-79] HikariPool-16 - Shutdown initiated...
+2019-11-12 01:40:47,873 INFO com.zaxxer.hikari.HikariDataSource [Thread-79] HikariPool-16 - Shutdown completed.
+2019-11-12 01:40:48,710 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:40:48,710 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:40:48,711 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:40:49,227 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:40:49,360 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:40:49,361 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:40:49,457 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:40:49,460 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:40:49,536 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:40:49,542 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Starting...
+2019-11-12 01:40:49,546 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Start completed.
+2019-11-12 01:40:49,546 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:40:49,994 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:40:50,142 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:40:50,485 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.836 seconds (JVM running for 780.306)
+2019-11-12 01:40:53,940 INFO com.zaxxer.hikari.HikariDataSource [Thread-84] HikariPool-17 - Shutdown initiated...
+2019-11-12 01:40:53,950 INFO com.zaxxer.hikari.HikariDataSource [Thread-84] HikariPool-17 - Shutdown completed.
+2019-11-12 01:40:54,479 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:40:54,480 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:40:54,480 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:40:54,962 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:40:55,107 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:40:55,107 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:40:55,261 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:40:55,265 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:40:55,331 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:40:55,335 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-18 - Starting...
+2019-11-12 01:40:55,339 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-18 - Start completed.
+2019-11-12 01:40:55,339 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:40:55,728 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:40:55,880 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:40:56,211 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.769 seconds (JVM running for 786.031)
+2019-11-12 01:42:18,889 INFO com.zaxxer.hikari.HikariDataSource [Thread-89] HikariPool-18 - Shutdown initiated...
+2019-11-12 01:42:18,893 INFO com.zaxxer.hikari.HikariDataSource [Thread-89] HikariPool-18 - Shutdown completed.
+2019-11-12 01:42:19,428 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:42:19,428 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:42:19,428 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:42:19,823 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:42:19,944 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:42:19,944 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:42:20,054 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:42:20,058 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:42:20,124 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:42:20,129 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-19 - Starting...
+2019-11-12 01:42:20,135 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-19 - Start completed.
+2019-11-12 01:42:20,135 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:42:20,528 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:42:20,672 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:42:21,031 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.63 seconds (JVM running for 870.851)
+2019-11-12 01:48:06,956 INFO com.zaxxer.hikari.HikariDataSource [Thread-94] HikariPool-19 - Shutdown initiated...
+2019-11-12 01:48:06,959 INFO com.zaxxer.hikari.HikariDataSource [Thread-94] HikariPool-19 - Shutdown completed.
+2019-11-12 01:48:07,479 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:48:07,479 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:48:07,479 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:48:07,919 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:48:08,055 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:48:08,055 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:48:08,181 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:48:08,187 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:48:08,246 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:48:08,250 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-20 - Starting...
+2019-11-12 01:48:08,255 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-20 - Start completed.
+2019-11-12 01:48:08,255 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:48:08,764 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:48:08,919 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:48:09,446 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.997 seconds (JVM running for 1219.266)
+2019-11-12 01:54:52,814 INFO com.zaxxer.hikari.HikariDataSource [Thread-99] HikariPool-20 - Shutdown initiated...
+2019-11-12 01:54:52,818 INFO com.zaxxer.hikari.HikariDataSource [Thread-99] HikariPool-20 - Shutdown completed.
+2019-11-12 01:54:53,231 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:54:53,231 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:54:53,231 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:54:53,689 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:54:53,830 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:54:53,831 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:54:53,918 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:54:53,921 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:54:54,020 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:54:54,025 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-21 - Starting...
+2019-11-12 01:54:54,030 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-21 - Start completed.
+2019-11-12 01:54:54,031 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:54:54,593 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:54:54,798 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:54:55,228 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 2.025 seconds (JVM running for 1625.047)
+2019-11-12 01:54:56,652 INFO com.zaxxer.hikari.HikariDataSource [Thread-104] HikariPool-21 - Shutdown initiated...
+2019-11-12 01:54:56,655 INFO com.zaxxer.hikari.HikariDataSource [Thread-104] HikariPool-21 - Shutdown completed.
+2019-11-12 01:54:57,109 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 10112 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:54:57,109 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:54:57,109 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 01:54:57,666 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 01:54:57,826 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 01:54:57,826 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 01:54:57,943 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 01:54:57,946 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 01:54:58,022 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:54:58,027 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-22 - Starting...
+2019-11-12 01:54:58,031 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-22 - Start completed.
+2019-11-12 01:54:58,032 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:54:58,567 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:54:58,737 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 01:54:59,217 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 2.155 seconds (JVM running for 1629.037)
+2019-11-12 01:55:26,036 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-22 - Shutdown initiated...
+2019-11-12 01:55:26,039 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-22 - Shutdown completed.
+2019-11-12 01:56:08,815 INFO com.cg.tripplanner.TripplannerApplicationTests [main] Starting TripplannerApplicationTests on DESKTOP-CR3KAV0 with PID 9288 (started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 01:56:08,825 DEBUG com.cg.tripplanner.TripplannerApplicationTests [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 01:56:08,826 INFO com.cg.tripplanner.TripplannerApplicationTests [main] No active profile set, falling back to default profiles: default
+2019-11-12 01:56:13,394 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 01:56:13,686 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.4.6.Final}
+2019-11-12 01:56:13,991 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-12 01:56:14,590 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-11-12 01:56:15,099 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-11-12 01:56:15,144 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 01:56:18,274 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 01:56:23,444 INFO com.cg.tripplanner.TripplannerApplicationTests [main] Started TripplannerApplicationTests in 15.764 seconds (JVM running for 20.524)
+2019-11-12 01:56:23,824 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2019-11-12 01:56:23,889 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2019-11-12 02:21:40,032 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 14516 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 02:21:40,044 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 02:21:40,045 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 02:21:41,998 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 02:21:41,998 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 02:21:42,397 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 02:21:42,410 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 02:21:42,636 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 02:21:42,713 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.6.Final}
+2019-11-12 02:21:42,955 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-12 02:21:43,063 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-11-12 02:21:45,525 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-11-12 02:21:45,538 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 02:21:46,916 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 02:21:47,520 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 02:21:48,312 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 8.847 seconds (JVM running for 10.014)
+2019-11-12 02:25:20,837 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9011-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-12 02:25:20,864 WARN com.cg.tripplanner.config.JwtRequestFilter [http-nio-9011-exec-1] JWT Token does not begin with Bearer String
+2019-11-12 02:25:21,107 INFO com.cg.tripplanner.controller.JwtAuthenticationController [http-nio-9011-exec-1] Entered Registering method
+2019-11-12 02:27:04,583 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2019-11-12 02:27:04,599 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2019-11-12 02:27:05,248 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 14516 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 02:27:05,249 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 02:27:05,249 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 02:27:05,978 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 02:27:06,121 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 02:27:06,121 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 02:27:06,265 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 02:27:06,269 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 02:27:06,345 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 02:27:06,354 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2019-11-12 02:27:06,455 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2019-11-12 02:27:06,456 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 02:27:06,874 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 02:27:07,142 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 02:27:07,660 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 2.499 seconds (JVM running for 329.361)
+2019-11-12 02:27:18,219 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown initiated...
+2019-11-12 02:27:18,239 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown completed.
+2019-11-12 02:27:18,767 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 14516 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 02:27:18,767 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 02:27:18,767 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 02:27:19,247 WARN org.apache.tomcat.util.modeler.Registry [restartedMain] The MBean registry cannot be disabled because it has already been initialised
+2019-11-12 02:27:19,385 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 02:27:19,385 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 02:27:19,491 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 02:27:19,495 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 02:27:19,575 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 02:27:19,584 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2019-11-12 02:27:19,678 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2019-11-12 02:27:19,679 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 02:27:20,047 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 02:27:20,261 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 02:27:20,685 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 1.955 seconds (JVM running for 342.386)
+2019-11-12 02:27:25,466 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-3 - Shutdown initiated...
+2019-11-12 02:27:25,477 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-3 - Shutdown completed.
+2019-11-12 02:27:47,216 INFO com.cg.tripplanner.TripplannerApplicationTests [main] Starting TripplannerApplicationTests on DESKTOP-CR3KAV0 with PID 2804 (started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 02:27:47,218 DEBUG com.cg.tripplanner.TripplannerApplicationTests [main] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 02:27:47,219 INFO com.cg.tripplanner.TripplannerApplicationTests [main] No active profile set, falling back to default profiles: default
+2019-11-12 02:27:51,041 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 02:27:52,047 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.4.6.Final}
+2019-11-12 02:27:52,688 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-12 02:27:53,315 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-11-12 02:28:02,611 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-11-12 02:28:02,658 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 02:28:06,496 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 02:28:12,158 INFO com.cg.tripplanner.TripplannerApplicationTests [main] Started TripplannerApplicationTests in 25.77 seconds (JVM running for 27.588)
+2019-11-12 02:28:12,561 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2019-11-12 02:28:12,597 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2019-11-12 10:23:04,173 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Starting TripplannerApplication on DESKTOP-CR3KAV0 with PID 9032 (C:\Users\piyus\git\PLP\tripplanner\target\classes started by Piyush in C:\Users\piyus\git\PLP\tripplanner)
+2019-11-12 10:23:04,192 DEBUG com.cg.tripplanner.TripplannerApplication [restartedMain] Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-12 10:23:04,193 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-11-12 10:23:06,045 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-11-12 10:23:06,046 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-12 10:23:06,450 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-12 10:23:06,464 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-11-12 10:23:06,983 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-11-12 10:23:07,105 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.6.Final}
+2019-11-12 10:23:07,348 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-11-12 10:23:07,473 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-11-12 10:23:10,512 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-11-12 10:23:10,524 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-12 10:23:13,529 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-11-12 10:23:14,775 DEBUG com.cg.tripplanner.config.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2019-11-12 10:23:16,642 INFO com.cg.tripplanner.TripplannerApplication [restartedMain] Started TripplannerApplication in 13.148 seconds (JVM running for 14.444)
+2019-11-12 10:24:02,011 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9011-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-12 10:24:02,434 WARN com.cg.tripplanner.config.JwtRequestFilter [http-nio-9011-exec-1] JWT Token does not begin with Bearer String
+2019-11-12 10:24:02,769 INFO com.cg.tripplanner.controller.JwtAuthenticationController [http-nio-9011-exec-1] Entered Registering method
+2019-11-12 10:25:34,777 WARN com.cg.tripplanner.config.JwtRequestFilter [http-nio-9011-exec-5] JWT Token does not begin with Bearer String
+2019-11-12 10:25:34,784 INFO com.cg.tripplanner.controller.JwtAuthenticationController [http-nio-9011-exec-5] Token Creation method
+2019-11-12 10:26:37,810 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-7] Add Location method
+2019-11-12 10:26:51,963 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-9] Add Location method
+2019-11-12 10:27:01,381 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-10] Add Location method
+2019-11-12 10:27:14,431 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-2] Add Location method
+2019-11-12 10:32:16,922 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-4] Add transport Method
+2019-11-12 10:32:29,481 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-5] Add transport Method
+2019-11-12 10:32:39,126 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-6] Add transport Method
+2019-11-12 10:32:46,757 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-8] Add transport Method
+2019-11-12 10:32:54,935 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-7] Add transport Method
+2019-11-12 10:33:03,164 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-9] Add transport Method
+2019-11-12 10:33:11,675 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-10] Add transport Method
+2019-11-12 10:33:24,180 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-2] Add transport Method
+2019-11-12 10:33:47,284 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-1] Add transport Method
+2019-11-12 10:33:58,454 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-3] Add transport Method
+2019-11-12 10:34:09,393 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-4] Add transport Method
+2019-11-12 10:34:21,573 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-5] Add transport Method
+2019-11-12 10:34:33,330 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-6] Add transport Method
+2019-11-12 10:34:43,237 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-8] Add transport Method
+2019-11-12 10:34:50,373 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-7] Add transport Method
+2019-11-12 10:35:44,280 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-2] Add transport Method
+2019-11-12 10:37:08,783 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-3] Add transport Method
+2019-11-12 10:37:18,942 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-5] Add transport Method
+2019-11-12 10:38:24,083 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-7] Add transport Method
+2019-11-12 11:38:20,570 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-9011-exec-2] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14e767aa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-11-12 11:38:20,635 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-9011-exec-2] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@398d23f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-11-12 11:38:20,655 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-9011-exec-2] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5dd28e57 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-11-12 11:38:20,677 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-9011-exec-2] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72277870 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-11-12 11:38:20,702 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-9011-exec-2] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c4e500 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-11-12 11:38:20,716 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-9011-exec-2] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4488d62d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-11-12 11:38:20,736 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-9011-exec-2] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@d6158dd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-11-12 11:38:20,756 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-9011-exec-2] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@444c55f9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-11-12 11:38:20,781 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-9011-exec-2] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62065495 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-11-12 11:38:20,803 WARN com.zaxxer.hikari.pool.PoolBase [http-nio-9011-exec-2] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60bdcf46 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-11-12 11:38:24,393 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-2] Add transport Method
+2019-11-12 11:39:01,589 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-1] Add transport Method
+2019-11-12 11:39:35,582 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-4] Add transport Method
+2019-11-12 11:39:53,013 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-3] Add transport Method
+2019-11-12 11:40:22,199 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-5] Add transport Method
+2019-11-12 11:40:44,571 INFO com.cg.tripplanner.controller.AdminController [http-nio-9011-exec-6] Add transport Method
+2019-11-12 17:55:24,017 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-11-12 17:55:24,057 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.

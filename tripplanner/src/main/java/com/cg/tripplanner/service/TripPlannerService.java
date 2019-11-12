@@ -3,6 +3,7 @@
  */
 package com.cg.tripplanner.service;
 
+import java.io.IOException;
 import java.util.List;
 
 import com.cg.tripplanner.dto.Booking;
@@ -24,14 +25,14 @@ public interface TripPlannerService {
 	public User searchUser(Long userId)throws TripException;
 	public Hotel addHotel(Hotel hotel) throws TripException;
 	public Hotel updateHotel(Hotel hotel) throws TripException;
-	public Hotel removeHotel(Long hotelId) throws TripException;
 	public Hotel searchHotel(Long hotelId) throws TripException;
 	public List<Location> findAllLocation() throws TripException;
 	public Location searchLocation(Long locationId) throws TripException;
 	public Location addLocation(Location location) throws TripException;
-	public Booking bookTransport(Long userId, Booking booking, Long locationId, Transport transport) throws TripException;
-	public HotelBooking bookHotel(Long bookingId, HotelBooking hotelBooking) throws TripException;
+	public Booking bookTransport(Long userId, Booking booking,Long locationId, Long transportId) throws TripException;
+	public HotelBooking bookHotel(Long userId, HotelBooking booking, Long hotelId) throws TripException;
 	public Transport addTransport(Transport transport) throws TripException;
 	public User findByEmail(String email) throws TripException;
-	
+	public List<Transport> findTransports(String departureFrom,String arrivalAt, String transportMode )throws TripException;
+	public void readFromExcel(String locationName, String fileName, long time) throws IOException, TripException;
 }

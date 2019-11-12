@@ -270,13 +270,15 @@ aria-hidden="true">
       <div class="modal-body">
         <!--Body-->
         <div class="md-form mb-5">
-          <input type="text" id="Form-email5" class="form-control white-text" [(ngModel)] = "userEmail">
+          <input type="text" id="Form-email5" class="form-control white-text" [(ngModel)] = "userEmail" (focusout)="validateLoginEmail()" >
           <label >Your email</label>
+          <span style="color: red;">{{loginemail}}</span>
         </div>
 
         <div class="md-form pb-3">
-          <input type="password" id="Form-pass5" class="form-control white-text" [(ngModel)] = "userPassword">
+          <input type="password" id="Form-pass5" class="form-control white-text" [(ngModel)] = "userPassword" (focusout)= "validateLoginPassword()">
           <label >Your password</label>
+          <span style="color: red;">{{loginpass}}</span>
           
         </div>
 
@@ -297,8 +299,7 @@ aria-hidden="true">
 
           <!--Grid column-->
           <div class="col-md-12">
-            <p class="font-small white-text d-flex justify-content-end">Have an account? <a href="#" class="green-text ml-1 font-weight-bold">
-                Log in</a></p>
+            
           </div>
           <!--Grid column-->
 
@@ -371,8 +372,7 @@ aria-hidden="true">
 
           <!--Grid column-->
           <div class="col-md-12">
-            <p class="font-small white-text d-flex justify-content-end">Have an account? <a href="#" class="green-text ml-1 font-weight-bold">
-                Log in</a></p>
+            
           </div>
           <!--Grid column-->
 
